@@ -2,8 +2,8 @@
 using Exercise.Loop;
 
 
-// Task1.RunTask1();
-// Task2.RunTask2();
+Task1.RunTask1();
+Task2.RunTask2();
 LoopTask.RunLoop();
 // InterviewQuestion.Run();
 
