@@ -1,21 +1,23 @@
 ﻿using PracticeTask;
-using InterviewTask;
-using CarManufacture;
-using CarManufacture.Brand;
-using BalockExercise;
+using Exercise.Loop;
 
-Task1.Run();
-InterviewQuestion.Run();
 
-Toyota lgx = new Toyota("V4", 200, 1998, "Red", 84_000_000);
-lgx.Turbo();
-lgx.ShowInfo();
+// Task1.RunTask1();
+// Task2.RunTask2();
+LoopTask.RunLoop();
+// InterviewQuestion.Run();
 
-Wuling airev = new Wuling("V3", 120, 2023, "White", 300_000_000);
-airev.Hybrid();
-airev.ShowInfo();
+// Toyota lgx = new Toyota("V4", 200, 1998, "Red", 84_000_000);
+// lgx.Turbo();
+// lgx.ShowInfo();
 
-lgx.MakeToyota();
-Console.WriteLine("Total Car on showroom " + Car.TotalCar);
+// Wuling airev = new Wuling("V3", 120, 2023, "White", 300_000_000);
+// airev.Hybrid();
+// airev.ShowInfo();
 
-BalockTask.Run();
+// lgx.MakeToyota();
+// Console.WriteLine("Total Car on showroom " + Car.TotalCar);
+
+// BalockTask.Run();
+
+// BasicExecise.Task();

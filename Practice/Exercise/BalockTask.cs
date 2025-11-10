@@ -1,4 +1,4 @@
-namespace BalockExercise
+namespace Exercise.Balock
 {
     class BalockTask
     {

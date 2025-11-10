@@ -14,15 +14,16 @@ namespace PracticeTask
 {
     class Task1
     {
-        public static void Run()
+        public static void RunTask1()
         {
-            Console.Write("Please enter a number: ");
             int num = 0;
+
+            Console.Write("Please enter a number: ");
             num = Convert.ToInt32(Console.ReadLine());
-            DevinedNumber(num);
+            DivisibleNumber(num);
         }
 
-        static void DevinedNumber(int num)
+        static void DivisibleNumber(int num)
         {
             for (int i = 1; i <= num; i++)
             {
