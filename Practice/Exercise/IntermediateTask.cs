@@ -1,4 +1,4 @@
-namespace Exercise.Advance
+namespace Exercise.Intermediate
 {
     class Car
     {
@@ -19,7 +19,8 @@ namespace Exercise.Advance
 
     class Animal
     {
-        public string Name;
+        private string? _name;
+        public string Name { get => _name!; set => _name = value; }
         public int Age;
 
         public Animal(string name, int age)
@@ -131,7 +132,8 @@ namespace Exercise.Advance
 
     class Rectangle : Shape
     {
-        private int _width { get; set; }
+        private int _width;
+        public int width{ get; set; }
         private int _height { get; set; }
 
         public Rectangle(string name, int width, int height) : base(name)

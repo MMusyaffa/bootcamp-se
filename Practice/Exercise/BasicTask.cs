@@ -1,4 +1,4 @@
-using Exercise.Advance;
+using Exercise.Intermediate;
 
 namespace Exercise.Basic
 {
@@ -25,18 +25,18 @@ namespace Exercise.Basic
             // Task17();
             // Task18();
             // Task19();
-            Task20();
+            // Task20();
         }
 
         static void Task1()
         {
             // TODO: Lengkapi bagian yang kosong
             // Menampilkan hasil penjumlahan dari dua bilangan yang dimasukkan pengguna
-            
+
             Console.Write("Masukkan angka pertama: ");
-            int a = int.Parse(Console.ReadLine());
+            int a = int.Parse(Console.ReadLine()!);
             Console.Write("Masukkan angka kedua: ");
-            int b = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine()!);
 
             // Tambahkan kode di sini agar menampilkan hasil penjumlahan
             Console.WriteLine("Hasil: " + (a + b));
@@ -114,13 +114,13 @@ namespace Exercise.Basic
             // Gunakan switch untuk menentukan aktivitas berdasarkan hari tersebut:
 
             Console.Write("Masukan nama hari favorit: ");
-            string hari = Console.ReadLine().ToLower();
+            string hari = Console.ReadLine()!.ToLower();
 
             Console.Write("Rekomendasi kegiatan: ");
 
             switch (hari)
             {
-                case "senin" :
+                case "senin":
                     Console.WriteLine("Ayo masuk kerja");
                     break;
                 case "selasa":
@@ -155,7 +155,7 @@ namespace Exercise.Basic
             Console.Write("Masukan nama anda: ");
             string? nama = Console.ReadLine();
 
-            string namaBesar = nama.ToUpper();
+            string namaBesar = nama!.ToUpper();
             string namaKecil = nama.ToLower();
             int jumlahKarakter = nama.Length;
 
@@ -170,7 +170,7 @@ namespace Exercise.Basic
 
             int[] number = { 5, 10, 9, 7, 5, 4, 3, 2, 10, 11, 12 };
             Console.Write("Masukan bilangan: ");
-            int inputNum = int.Parse(Console.ReadLine());
+            int inputNum = int.Parse(Console.ReadLine()!);
             bool anySameNum = false;
             foreach (var num in number)
             {
@@ -181,7 +181,7 @@ namespace Exercise.Basic
                 else { anySameNum = false; }
             }
 
-            Console.WriteLine($"Input number: {inputNum}, any same number? {(anySameNum? "Yes" : "No")}");
+            Console.WriteLine($"Input number: {inputNum}, any same number? {(anySameNum ? "Yes" : "No")}");
         }
 
         static void Task10()

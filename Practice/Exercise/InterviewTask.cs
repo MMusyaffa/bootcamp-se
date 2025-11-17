@@ -11,6 +11,8 @@ namespace InterviewTask
             SeparateName(name!);
         }
 
+        IEnumerable<string> strings = new List<string>();
+
         static void ShowName(string name)
         {
             Console.WriteLine("Your name is: " + name);

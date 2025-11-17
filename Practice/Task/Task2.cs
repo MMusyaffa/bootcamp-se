@@ -16,7 +16,7 @@ namespace PracticeTask
 {
     class Task2
     {
-        public static void RunTask2()
+        public static void RunTask()
         {
             int num = 0;
 
