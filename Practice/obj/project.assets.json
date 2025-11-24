@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\Coding\\C#\\Bootcamp\\Software Engineer\\Practice\\Practice.csproj",
+      "projectUniqueName": "D:\\Bootcamp\\Software Engineer\\Practice\\Practice.csproj",
       "projectName": "Practice",
-      "projectPath": "D:\\Practice\\Coding\\C#\\Bootcamp\\Software Engineer\\Practice\\Practice.csproj",
+      "projectPath": "D:\\Bootcamp\\Software Engineer\\Practice\\Practice.csproj",
       "packagesPath": "C:\\Users\\Musyaffa\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\Coding\\C#\\Bootcamp\\Software Engineer\\Practice\\obj\\",
+      "outputPath": "D:\\Bootcamp\\Software Engineer\\Practice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
